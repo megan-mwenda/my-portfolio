@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Megan Mwendwa | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+    const form=
+    document.querySelector(" .contact-form");
+    const message =
+    document.querySelector(" .success-message");
+    form.addEventListener("submit",function(e){
+        e.preventDefault();//stop page reload
+        message.classList.add("show")//show message
+        form.reset();
+    });
+</script>
+<body>
+
+<nav>
+    <h2 class="logo">Megan.</h2>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="section">
+    <h2>Contact Me</h2>
+
+    
+
+   <div class="contact-container">
+    <p><strong>Email:</strong> 
+        <a href="mailto:m.meganmwendwa@gmail.com" class="contact-link">m.meganmwendwa@gmail.com</a>
+    </p>
+
+    <p><strong>Phone:</strong> 
+        <a href="tel:+254106843457" class="contact-link">0106843457</a>
+    </p>
+
+    <p><strong>Location:</strong> Kenya</p>
+</div>
+</section>
+
+<footer>
+    <p>© 2026 Megan Mwendwa. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
