@@ -45,9 +45,9 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right, #1e3a8a, #2563eb);
-    color: blue;
+    color: white;
     text-align: center;
-    text-color:white;
+    
 }
 
 .hero span {
@@ -168,6 +168,7 @@ footer {
 #section3{
     background-color:#b3d9ff;
 }
+
 
 
 
