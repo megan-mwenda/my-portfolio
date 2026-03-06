@@ -67,6 +67,8 @@ nav ul li a {
 .section {
     padding: 60px 10%;
     text-align: center;
+    min-height:100vh;
+    padding:60px;
 }
 
 .project-container {
@@ -155,7 +157,16 @@ footer {
 .success-message .show{
      display: block;
 }
-
+#section1{
+    background-color:#e6f2ff;
+    
+}
+#section3{
+    background-color:#cce6ff;
+}
+#section3{
+    background-color:#b3d9ff;
+}
 
 
 
