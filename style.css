@@ -77,7 +77,7 @@ nav ul li a {
 }
 
 .project-card {
-    background: white;
+    background:#152a6b;
     padding: 20px;
     margin: 15px;
     width: 250px;
@@ -156,7 +156,8 @@ footer {
      display: block;
 }
 #section3{
-    color:lightblue;
+    color: #152a6b;
 }
+
 
 
