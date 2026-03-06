@@ -132,15 +132,15 @@ footer {
     }
 }
 .curve-box {
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
     background: blue;
     color: white;
-    border-radius: 50px;   /* This creates the curve */
+    border-radius: 60px;   /* This creates the curve */
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 40px;
     transition: 0.4s ease; /* Smooth hover animation */
 }
 
@@ -161,12 +161,13 @@ footer {
     background-color:#e6f2ff;
     
 }
-#section3{
+#section2{
     background-color:#cce6ff;
 }
 #section3{
     background-color:#b3d9ff;
 }
+
 
 
 
