@@ -45,7 +45,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right, #1e3a8a, #2563eb);
-    color: white;
+    color: #1e3a8a;
     text-align: center;
 }
 
@@ -77,7 +77,7 @@ nav ul li a {
 }
 
 .project-card {
-    background:#152a6b;
+    background:white;
     padding: 20px;
     margin: 15px;
     width: 250px;
@@ -155,9 +155,8 @@ footer {
 .success-message .show{
      display: block;
 }
-#section3{
-    color: #152a6b;
-}
+
+
 
 
 
